@@ -1,0 +1,5 @@
+caja negra -> dar ejemplar para comprobar si es correcto o no sabiendo cual es la salida correcta.
+memcmp(v,s,n) -> v,s es la memoria a comparar y n el tamaño. Devuleve 0 si son iguales.
+next_permutation() -> falso si está ordenado y verdadero si no lo está
+memcpy(w,v,sizeof v) -> copia v en w
+en el ejercicio de next_permutation() el bucle for sirve para probar las permutaciones HASTA N=8. Para prbar solo las de N=8 habría que quitar el bucle exterior.
